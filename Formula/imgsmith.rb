@@ -1,26 +1,26 @@
 class Imgsmith < Formula
   desc "Convert, resize, crop and thumbnail images from one static binary"
   homepage "https://github.com/marceanlabs/imgsmith"
-  version "0.1.3"
+  version "0.1.4"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/marceanlabs/imgsmith/releases/download/v0.1.3/imgsmith-0.1.3-aarch64-apple-darwin.tar.gz"
-      sha256 "e3a1541636b2d3903336adfaad02fad0dfd08b301728afc8b98d3673670dc6e8"
+      url "https://github.com/marceanlabs/imgsmith/releases/download/v0.1.4/imgsmith-0.1.4-aarch64-apple-darwin.tar.gz"
+      sha256 "f9caf8b515c8e58244e16d79e2780f22a8fba5271b6637a98c79b886dc3d5bef"
     else
-      url "https://github.com/marceanlabs/imgsmith/releases/download/v0.1.3/imgsmith-0.1.3-x86_64-apple-darwin.tar.gz"
-      sha256 "1d8c59172f586503edaae2736e1eb59b45396d1331703c4a5de2bc54a917aaed"
+      url "https://github.com/marceanlabs/imgsmith/releases/download/v0.1.4/imgsmith-0.1.4-x86_64-apple-darwin.tar.gz"
+      sha256 "8b18971a1696d380f75989c62fb2682bd9daa37265538c6a07871fc7ace747be"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/marceanlabs/imgsmith/releases/download/v0.1.3/imgsmith-0.1.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3a0b64112df8537b2e13d1774b3860c20103397572e7f2f73d87bfd7d83e9f7c"
+      url "https://github.com/marceanlabs/imgsmith/releases/download/v0.1.4/imgsmith-0.1.4-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "15202e7ebd418e600eafee9ca2dd25c5b8f30f5f99d50f53481bac785db98ffd"
     else
-      url "https://github.com/marceanlabs/imgsmith/releases/download/v0.1.3/imgsmith-0.1.3-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "ebff4e0c6ce38905cc35f1b060c66e0ba1f24cf6736018eb53adb0e4df0d2f6c"
+      url "https://github.com/marceanlabs/imgsmith/releases/download/v0.1.4/imgsmith-0.1.4-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "0a2007b3c3d897a41ef6fe90a970c45a372fa68f454c469b2e26c96c37103667"
     end
   end
 

@@ -1,7 +1,7 @@
 # imgsmith Homebrew tap
 
-Install [imgsmith](https://github.com/marceanlabs/imgsmith), a single-binary image
-converter with no delegates and no C dependencies.
+Install [imgsmith](https://github.com/marceanlabs/imgsmith), one program for
+converting and resizing images, with no other software behind it.
 
 ```console
 $ brew install marceanlabs/imgsmith/imgsmith
@@ -20,6 +20,6 @@ Upgrade:
 $ brew update && brew upgrade imgsmith
 ```
 
-The formula installs a prebuilt binary for the current platform (Apple silicon or
-Intel on macOS, x86_64 or arm64 on Linux) and verifies the download with a SHA-256
-checksum. Nothing is compiled at install time.
+The formula downloads a ready built binary for your machine (Apple silicon or
+Intel on macOS, x86_64 or arm64 on Linux) and checks it against a SHA-256
+checksum. Nothing is compiled during the install.
